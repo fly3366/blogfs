@@ -1,0 +1,31 @@
+{
+  "name": "blogfs",
+  "version": "0.1.0",
+  "description": "Mount Hexo as a FUSE volume using Node.js",
+  "main": "index.ts",
+  "bin": {
+    "blogfs": "bin.js"
+  },
+  "scripts": {
+    "start": "node bin",
+    "test": "standard"
+  },
+  "keywords": [
+    "Blog",
+    "Hexo",
+    "FUSE",
+    "filesystem",
+    "mount"
+  ],
+  "license": "WTFPL",
+  "dependencies": {
+    "async": "^2.6.2",
+    "fuse-native": "^2.2.6",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.8",
+    "@types/node": "^16.10.2",
+    "typescript": "^4.4.4"
+  }
+}
