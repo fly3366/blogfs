@@ -1,7 +1,7 @@
 import Fuse from "fuse-native"
 import * as Async from 'async'
 import { CreateFS } from "./blogfs"
-import path from "path/posix"
+import path from "path"
 import os from "os"
 
 export const FSMount = (mountPath: string, opts: any, cb: any) => {
